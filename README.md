@@ -12,11 +12,17 @@ At the free level, it looks like GitLab offers a replacement for Travis CI.
 
 So far, tested with:
 
+## Go
+
+* [Radix Trie](http://github.com/mramshaw/radix-trie)
+
+[The `go` template uses an interesting approach to dependency management.]
+
 ## Java (Maven)
 
 [Requires a `pom.xml' file.]
 
-* [Alexa Skills Kit - Java](https://github.com/mramshaw/alexa-skills-kit-java)
+* [Alexa Skills Kit - Java](http://github.com/mramshaw/alexa-skills-kit-java)
 
 [Somewhat old and dated - needing updating.]
 
@@ -24,7 +30,7 @@ So far, tested with:
 
 [Requires a `build.sbt' file.]
 
-* [Ad-Tech Scala/Akka exercise](https://github.com/mramshaw/ad-tech)
+* [Ad-Tech Scala/Akka exercise](http://github.com/mramshaw/ad-tech)
 * [Spray Book Catalog](http://github.com/mramshaw/spray-book-catalog)
 
 [The tests for the `Spray Book Catalog` never did work correctly.]
