@@ -18,6 +18,12 @@ So far, tested with:
 
 [The `go` template uses an interesting approach to dependency management.]
 
+## Java (Gradle)
+
+* [AWS Lambda Sample - Java](http://github.com/mramshaw/aws-lambda-sample)
+
+[Not really suitable for testing integration as it mainly works via manual testing.]
+
 ## Java (Maven)
 
 [Requires a `pom.xml' file.]
