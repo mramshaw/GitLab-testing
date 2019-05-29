@@ -8,6 +8,9 @@ GitLab offers a fuller set of services (not all free) for integration tests.
 
 At the free level, it looks like GitLab offers a replacement for Travis CI.
 
+GitLab is fairly opinionated with regard to workflow, this is my attempt to
+checkit out.
+
 ## Testing
 
 So far, tested with:
@@ -18,6 +21,11 @@ So far, tested with:
 
 [The `go` template uses an interesting approach to dependency management.]
 
+* [GitLab](http://gitlab.com/mramshaw/gitlab)
+
+[This was created in GitLab rather than migrated from GitHub. CI with `go modules`
+ appears to be an issue.]
+
 ## Java (Gradle)
 
 * [AWS Lambda Sample - Java](http://github.com/mramshaw/aws-lambda-sample)
@@ -26,7 +34,7 @@ So far, tested with:
 
 ## Java (Maven)
 
-[Requires a `pom.xml' file.]
+[Requires a `pom.xml` file.]
 
 * [Alexa Skills Kit - Java](http://github.com/mramshaw/alexa-skills-kit-java)
 
@@ -39,7 +47,7 @@ So far, tested with:
 * [Ad-Tech Scala/Akka exercise](http://github.com/mramshaw/ad-tech)
 * [Spray Book Catalog](http://github.com/mramshaw/spray-book-catalog)
 
-[The tests for the `Spray Book Catalog` never did work correctly.]
+[The tests for the `Spray Book Catalog` didn't work correctly to start with.]
 
 ## Problems
 
