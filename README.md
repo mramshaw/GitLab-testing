@@ -9,7 +9,7 @@ GitLab offers a fuller set of services (not all free) for integration tests.
 At the free level, it looks like GitLab offers a replacement for Travis CI.
 
 GitLab is fairly opinionated with regard to workflow, this is my attempt to
-checkit out.
+check it out.
 
 ## Testing
 
@@ -42,7 +42,7 @@ So far, tested with:
 
 ## Scala
 
-[Requires a `build.sbt' file.]
+[Requires a `build.sbt` file.]
 
 * [Ad-Tech Scala/Akka exercise](http://github.com/mramshaw/ad-tech)
 * [Spray Book Catalog](http://github.com/mramshaw/spray-book-catalog)
@@ -54,3 +54,5 @@ So far, tested with:
 The CI template for Scala does not seem to work correctly.
 
 The attached file is meant to be an update.
+
+Using `go modules` appears to be an issue.
