@@ -23,8 +23,7 @@ So far, tested with:
 
 * [GitLab](http://gitlab.com/mramshaw/gitlab)
 
-[This was created in GitLab rather than migrated from GitHub. CI with `go modules`
- appears to be an issue.]
+[This was created in GitLab rather than migrated from GitHub.]
 
 ## Java (Gradle)
 
@@ -54,5 +53,3 @@ So far, tested with:
 The CI template for Scala does not seem to work correctly.
 
 The attached file is meant to be an update.
-
-Using `go modules` appears to be an issue.
