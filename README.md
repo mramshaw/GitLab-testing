@@ -4,12 +4,20 @@ Some CI integration tests with GitLab
 
 ## Rationale
 
-GitLab offers a fuller set of services (not all free) for integration tests.
+Compared to GitHub, [GitLab](http://gitlab.com/) offers a fuller set of services
+(not all free) for integration tests.
 
-At the free level, it looks like GitLab offers a replacement for Travis CI.
+At the free level, GitLab offers a replacement for [Travis CI](http://travis-ci.org/).
 
 GitLab is fairly opinionated with regard to workflow, this is my attempt to
 check it out.
+
+GitLab describes itself as:
+
+> a single application for the entire software development lifecycle. From
+> project planning and source code management to CI/CD, monitoring, and security.
+
+From http://about.gitlab.com/
 
 ## Testing
 
