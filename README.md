@@ -1,11 +1,30 @@
 # GitLab-testing
 
-Some CI integration tests with GitLab
+![GitLab logo](images/logo_wordmark.svg)
+
+Getting familiar with GitLab (including workflow and CI integration tests)
+
+## Contents
+
+The contents are as follows:
+
+* [Rationale](#rationale)
+* [Testing](#testing)
+    * [Go](#go)
+    * [Java (Gradle)](#java-gradle)
+    * [Java (Maven)](#java-maven)
+    * [Scala](#scala)
+* [Problems](#problems)
+* [To Do](#to-do)
 
 ## Rationale
 
 Compared to GitHub, [GitLab](http://gitlab.com/) offers a fuller set of services
-(not all free) for integration tests.
+(not all free) for integration tests. At the project level GitLab has a very tiny
+fraction of the projects that GitHub has, but it does seem to have a lot of uptake
+at the enterprise level. GitLab has very rudimentary support for discovering new
+projects (GitHub really shines in this area), but this will no doubt improve in
+the future.
 
 At the free level, GitLab offers a replacement for [Travis CI](http://travis-ci.org/).
 
@@ -21,9 +40,9 @@ From http://about.gitlab.com/
 
 ## Testing
 
-So far, tested with:
+So far, tested with a number of projects (mostly migrations from GitHub), listed below.
 
-## Go
+#### Go
 
 * [Radix Trie](http://github.com/mramshaw/radix-trie)
 
@@ -33,13 +52,13 @@ So far, tested with:
 
 [This was created in GitLab rather than migrated from GitHub.]
 
-## Java (Gradle)
+#### Java (Gradle)
 
 * [AWS Lambda Sample - Java](http://github.com/mramshaw/aws-lambda-sample)
 
 [Not really suitable for testing integration as it mainly works via manual testing.]
 
-## Java (Maven)
+#### Java (Maven)
 
 [Requires a `pom.xml` file.]
 
@@ -47,7 +66,7 @@ So far, tested with:
 
 [Somewhat old and dated - needing updating.]
 
-## Scala
+#### Scala
 
 [Requires a `build.sbt` file.]
 
@@ -61,3 +80,10 @@ So far, tested with:
 The CI template for Scala does not seem to work correctly.
 
 The attached file is meant to be an update.
+
+## To Do
+
+- [x] Graphic added
+- [x] Add Table of Contents
+- [x] Test CI/CD with GitLab
+- [ ] More testing
