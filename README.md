@@ -2,13 +2,23 @@
 
 ![GitLab logo](images/logo_wordmark.svg)
 
-Getting familiar with GitLab (including workflow and CI integration tests)
+Getting familiar with GitLab (including workflow and CI/CD).
+
+GitLab is fairly opinionated with regard to workflow, this is my attempt to
+check it out. I am also interested in the CI/CD integrations and the various
+__DevSecOps__ options (security scanning, dependency scanning, etc).
 
 ## Contents
 
 The contents are as follows:
 
 * [Rationale](#rationale)
+    * [As a code repository](#as-a-code-repository)
+    * [CI/CD](#cicd)
+    * [As an Open-Source code repository](#as-an-open-source-repository)
+    * [Enterprise level](#enterprise-level)
+    * [Container Registry](#container-registry)
+* [About GitLab](#about-gitlab)
 * [Testing](#testing)
     * [Go](#go)
     * [Java (Gradle)](#java-gradle)
@@ -20,16 +30,37 @@ The contents are as follows:
 ## Rationale
 
 Compared to GitHub, [GitLab](http://gitlab.com/) offers a fuller set of services
-(not all free) for integration tests. At the project level GitLab has a very tiny
-fraction of the projects that GitHub has, but it does seem to have a lot of uptake
-at the enterprise level. GitLab has very rudimentary support for discovering new
-projects (GitHub really shines in this area), but this will no doubt improve in
-the future.
+(not all free) for integration testing and CI/CD.
 
-At the free level, GitLab offers a replacement for [Travis CI](http://travis-ci.org/).
+#### As a code repository
 
-GitLab is fairly opinionated with regard to workflow, this is my attempt to
-check it out.
+At its base, GitLab is a code repository tool like GitHub or [BitBucket](http://bitbucket.org/).
+
+#### CI/CD
+
+At the free level, GitLab offers an integrated replacement for CI tooling such
+as [Travis CI](http://travis-ci.org/) or [CircleCI](https://circleci.com/).
+
+#### As an Open-Source repository
+
+GitLab has a very tiny fraction of the projects that GitHub has.
+
+GitLab has very rudimentary support for discovering new projects (GitHub really
+shines in this area), but this will no doubt improve in the future.
+
+#### Enterprise level
+
+GitLab really shines at the enterprise level, where it is very popular.
+
+It can be run offline, making it an attactive alternative to solutions such
+as [Jenkins](http://jenkins.io/) or [GoCD](http://www.gocd.org/).
+
+#### Container Registry
+
+GitLab offers a container registry, much like [Docker Hub](http://hub.docker.com/)
+or [Google Container Registry](http://cloud.google.com/container-registry/).
+
+## About GitLab
 
 GitLab describes itself as:
 
