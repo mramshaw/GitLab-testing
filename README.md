@@ -5,7 +5,9 @@
 Getting familiar with GitLab (including workflow and CI/CD).
 
 GitLab is fairly opinionated with regard to workflow, this is my attempt to
-check it out. I am also interested in the CI/CD integrations and the various
+check it out.
+
+I am also interested in the CI/CD integrations and the various
 __DevSecOps__ options (security scanning, dependency scanning, etc).
 
 ## Contents
@@ -50,7 +52,7 @@ shines in this area), but this will no doubt improve in the future.
 
 #### Enterprise level
 
-GitLab really shines at the enterprise level, where it is very popular.
+GitLab shines at the enterprise level, where it is very popular.
 
 It can be run offline, making it an attactive alternative to solutions such
 as [Jenkins](http://jenkins.io/) or [GoCD](http://www.gocd.org/).
@@ -117,4 +119,5 @@ The attached file is meant to be an update.
 - [x] Graphic added
 - [x] Add Table of Contents
 - [x] Test CI/CD with GitLab
+- [ ] Test CI/CD with a project that requires QA, Staging, Production
 - [ ] More testing
